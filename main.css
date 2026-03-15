@@ -1,0 +1,100 @@
+body{
+  background: url(1773568968512.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.set{
+  width: 90%;
+  max-width: 900px;
+  border: solid seashell;
+  background-color: wheat;
+  padding: 20px;
+}
+
+P{
+  font-size: 17px;
+  font-weight: bold;
+  color: #3E2723;
+}
+h1{
+  color:gold ;
+}
+
+
+ .contact-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Or #1a1a1a for a dark theme */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .input-group {
+    display: flex;
+    gap: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    background-color: #007AFF; /* Apple-style blue */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive adjustment for mobile */
+  @media (max-width: 600px) {
+    .input-group {
+      flex-direction: column;
+    }
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  img{
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 30px;
+}
+span{
+  color: #0056b3;
+}
